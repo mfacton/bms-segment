@@ -1,0 +1,594 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ae89fdcd-3d06-4b3a-ae29-cfd34ccab853")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Diode:BAV70"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAV70"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAV70_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+1V0"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V0"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V0\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V0_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V0_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 121.92 104.14) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff3b137-08e7-4a33-949b-337f215ac073")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff329b60-0f36-41fd-ae30-834216caf4da")
+	)
+	(wire
+		(pts
+			(xy 127 96.52) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff721d00-2a59-47e1-a5fb-3b36c3159f7f")
+	)
+	(hierarchical_label "P"
+		(shape bidirectional)
+		(at 121.92 86.36 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a48df39-6a07-4fe7-b870-50d764c91c8f")
+	)
+	(hierarchical_label "N"
+		(shape bidirectional)
+		(at 121.92 106.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc4b1e14-ca76-4308-ba93-88110bae6ed7")
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 121.92 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "411ef16d-a9bb-42d6-815d-d2cced04c110")
+		(property "Reference" "D11"
+			(at 119.38 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 119.38 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7a1a214c-82f6-42db-bd09-6ea3401e0197")
+		)
+		(pin "2"
+			(uuid "787a7278-cc55-4875-99ba-5acc421642fa")
+		)
+		(pin "1"
+			(uuid "634b819c-1429-4d3c-bfa5-3574cc217ea6")
+		)
+		(instances
+			(project "bms-segment"
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/052e474d-bda3-4267-89aa-e87ceeedca9b"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/0c5efce6-b5b3-461a-a4bf-94885a584dc4"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/312d2b71-2b67-435d-958a-a25d190c85f0"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/547e6d01-9eba-4b21-b4fe-a5737edd7b6a"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/8b496d9c-f460-4883-942a-3e1edd4f9842"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/a26cc67e-a478-4f31-a93a-9df8ac6a26a0"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/cc3d7f88-9329-47c2-a4e2-631fc3786692"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/e0deb3bb-7af0-4b30-9c2a-68a49adc3524"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/ed80b5d5-3042-4eda-9e43-2f82a37c96a8"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 129.54 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cafc0378-068e-4f6c-ba13-6d2d32a27dff")
+		(property "Reference" "#PWR030"
+			(at 125.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CLAMP"
+			(at 133.35 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "868b80a0-eb82-4e69-a202-fcf9359b3c85")
+		)
+		(instances
+			(project "bms-segment"
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/052e474d-bda3-4267-89aa-e87ceeedca9b"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/0c5efce6-b5b3-461a-a4bf-94885a584dc4"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/312d2b71-2b67-435d-958a-a25d190c85f0"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/547e6d01-9eba-4b21-b4fe-a5737edd7b6a"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/8b496d9c-f460-4883-942a-3e1edd4f9842"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/a26cc67e-a478-4f31-a93a-9df8ac6a26a0"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/cc3d7f88-9329-47c2-a4e2-631fc3786692"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/e0deb3bb-7af0-4b30-9c2a-68a49adc3524"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/ea9102fd-6aec-41e4-b615-d7effc3e83dc/ed80b5d5-3042-4eda-9e43-2f82a37c96a8"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
