@@ -1571,7 +1571,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3dd823b6-9cb1-4d7e-be6d-552be260fb90")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 110.49 73.66 0)
 			(effects
 				(font
@@ -1711,7 +1711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44f3af37-2851-4aa3-99fa-3fe716ac3d36")
-		(property "Reference" "R18"
+		(property "Reference" "R22"
 			(at 91.44 66.0399 0)
 			(effects
 				(font
@@ -1853,7 +1853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b35902b-b9a4-4e35-893c-1cdc32c9f1c1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 69.85 52.07 0)
 			(effects
 				(font
@@ -1993,7 +1993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "728bcc05-1268-4743-aa77-338a0b633432")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR019"
 			(at 69.85 92.71 0)
 			(effects
 				(font
@@ -2063,7 +2063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "837bab16-c6b5-490e-9d5b-0ce2fc9571ca")
-		(property "Reference" "C15"
+		(property "Reference" "C20"
 			(at 97.79 66.04 90)
 			(effects
 				(font
@@ -2135,7 +2135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e999a43-414b-4b63-af81-306026ce9365")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 50.8 52.07 0)
 			(effects
 				(font
@@ -2205,7 +2205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f274347-70af-4034-b9e8-a075f2d2e617")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 72.39 63.4999 90)
 			(effects
 				(font
@@ -2356,7 +2356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a80042c8-c43c-4846-a505-502f44c821d5")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 54.61 63.4999 0)
 			(effects
 				(font
@@ -2495,7 +2495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5520e54-c6df-4556-a000-c4f5c61f3d69")
-		(property "Reference" "R16"
+		(property "Reference" "R24"
 			(at 63.5 76.962 90)
 			(effects
 				(font
@@ -2567,7 +2567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c871b284-b15c-4055-8474-5233e9f4d03e")
-		(property "Reference" "R20"
+		(property "Reference" "R26"
 			(at 97.79 80.01 90)
 			(effects
 				(font
@@ -2638,7 +2638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d29e6776-4018-4432-8e39-9c5e9446cde0")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 130.81 63.5 90)
 			(effects
 				(font
